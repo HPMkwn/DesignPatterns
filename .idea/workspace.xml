@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ARCWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ArcBlackSmith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/BlackSmith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ELFBlackSmith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ELFWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteFactoryA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteFactoryB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct1A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct1B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct2A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct2B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/Product1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/Product2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Peacock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/PeacockSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/PigeonSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/SparrowSound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrations/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrations/ConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrations/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrations/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrations/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections/AnotherConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/AnotherConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/ConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ParameterizedFactory/AnotherConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/AnotherConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ParameterizedFactory/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/ConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ParameterizedFactory/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ParameterizedFactory/FactoryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/FactoryClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Factory/ParameterizedFactory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,11 +62,12 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mr.mkwn/IdeaProjects/DesignPatterns/src/Singleton/Factory/ClassRegistrations",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="AbstractFactoryMethod.Simple" />
       <recent name="FactoryMethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">

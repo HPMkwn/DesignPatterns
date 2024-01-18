@@ -1,4 +1,4 @@
-package Singleton.Factory.ClassRegistrationusingReflections;
+package Factory.ClassRegistrationusingReflections;
 
 public class ConcreteProduct implements Product {
 

@@ -1,4 +1,4 @@
-package Singleton.Factory.ClassRegistrations;
+package Factory.ClassRegistrations;
 
 public class Client {
 

@@ -1,4 +1,4 @@
-package Singleton.Factory.ClassRegistrationusingReflections;
+package Factory.ClassRegistrationusingReflections;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

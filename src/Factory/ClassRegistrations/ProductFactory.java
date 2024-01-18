@@ -1,4 +1,4 @@
-package Singleton.Factory.ClassRegistrations;
+package Factory.ClassRegistrations;
 
 import java.util.HashMap;
 

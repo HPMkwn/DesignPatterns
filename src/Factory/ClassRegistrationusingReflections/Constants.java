@@ -1,4 +1,4 @@
-package Singleton.Factory.ParameterizedFactory;
+package Factory.ClassRegistrationusingReflections;
 
 public class Constants {
 

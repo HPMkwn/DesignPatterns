@@ -1,4 +1,4 @@
-package Singleton.Factory.ParameterizedFactory;
+package Factory.ParameterizedFactory;
 
 public class FactoryClass {
 

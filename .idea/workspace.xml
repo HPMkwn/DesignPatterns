@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteFactoryA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteFactoryB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct1A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct1B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct2A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct2B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/Product1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/Product2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Peacock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/PeacockSound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/PigeonSound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Sound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/SparrowSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +61,20 @@
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Singleton.Factory.ClassRegistrationusingReflections.Client">
+  <component name="RunManager" selected="Application.Builder.Client">
+    <configuration name="Builder.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Singleton.LazySingleton.Client" />
       <module name="DesignPatterns" />
@@ -118,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Builder.Client" />
         <item itemvalue="Application.Singleton.Factory.ClassRegistrationusingReflections.Client" />
         <item itemvalue="Application.Singleton.EagerSingleton.Client" />
         <item itemvalue="Application.Client" />

@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mediator/ChatMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/ConcreteMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/ConcreteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/ConfigurationCareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/ConfigurationMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Memento/ConfigurationOriginator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,20 +77,7 @@
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mediator.Client">
-    <configuration name="Bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bridge.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Memento.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Command.ConcreteExample.Client" />
       <module name="DesignPatterns" />
@@ -111,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Command.CarRepairExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Memento.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memento.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Memento.Client" />
         <item itemvalue="Application.mediator.Client" />
         <item itemvalue="Application.Observer.Client" />
         <item itemvalue="Application.Command.CarRepairExample.Client" />
         <item itemvalue="Application.Command.Client" />
-        <item itemvalue="Application.Bridge.Client" />
       </list>
     </recent_temporary>
   </component>

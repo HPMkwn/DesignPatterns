@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/ComplexShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/DabatasePersistenceImplementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/FileSystemPersistentImplementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/Persistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/PersistenceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/PersistenceImplementor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proxy/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/ImageProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Adapter.Client.executor": "Run",
+    "Application.Bridge.Client.executor": "Run",
     "Application.Builder.Client.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Composite.Client.executor": "Run",
@@ -63,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Bridge" />
       <recent name="Proxy" />
       <recent name="AbstractFactoryMethod.Simple" />
       <recent name="FactoryMethod" />
@@ -73,13 +74,13 @@
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Composite.Client">
-    <configuration name="Adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adapter.Client" />
+  <component name="RunManager" selected="Application.Bridge.Client">
+    <configuration name="Bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bridge.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Adapter.*" />
+          <option name="PATTERN" value="Bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bridge.Client" />
         <item itemvalue="Application.Composite.Client" />
         <item itemvalue="Application.FlyWeight.Client" />
         <item itemvalue="Application.Strategy.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Adapter.Client" />
       </list>
     </recent_temporary>
   </component>

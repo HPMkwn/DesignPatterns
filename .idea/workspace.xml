@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Command/CarRepairExample/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/CarRepairExample/EngineIssue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/CarRepairExample/FrontDeskInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/CarRepairExample/Issue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/CarRepairExample/RepairService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/CarRepairExample/TyrePuncture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/ConcreteExample/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/ConcreteExample/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/ConcreteExample/ConcreteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/ConcreteExample/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/ConcreteExample/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/EmailNotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/SMSNotificationListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +47,11 @@
     "Application.Bridge.Client.executor": "Run",
     "Application.Builder.Client.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.Command.CarRepairExample.Client.executor": "Run",
     "Application.Command.Client.executor": "Run",
     "Application.Composite.Client.executor": "Run",
     "Application.FlyWeight.Client.executor": "Run",
+    "Application.Observer.Client.executor": "Run",
     "Application.Prototype.Client.executor": "Run",
     "Application.Singleton.Factory.ClassRegistrationusingReflections.Client.executor": "Run",
     "Application.Strategy.Client.executor": "Run",
@@ -69,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Observer" />
       <recent name="Command" />
       <recent name="Bridge" />
       <recent name="Proxy" />
       <recent name="AbstractFactoryMethod.Simple" />
-      <recent name="FactoryMethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations" />
@@ -81,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Command.CarRepairExample.Client">
+  <component name="RunManager" selected="Application.Observer.Client">
     <configuration name="Bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bridge.Client" />
       <module name="DesignPatterns" />
@@ -134,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyWeight.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlyWeight.Client" />
+    <configuration name="Observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FlyWeight.*" />
+          <option name="PATTERN" value="Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Observer.Client" />
         <item itemvalue="Application.Command.CarRepairExample.Client" />
         <item itemvalue="Application.Command.Client" />
         <item itemvalue="Application.Bridge.Client" />
         <item itemvalue="Application.Composite.Client" />
-        <item itemvalue="Application.FlyWeight.Client" />
       </list>
     </recent_temporary>
   </component>

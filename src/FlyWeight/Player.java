@@ -9,7 +9,7 @@ public class Player {
     }
 
     public void fireBullet(String bulletType, int x, int y){
-        Bullet bullet = bulletFactory.getBullet(bulletType);
+        Bullet bullet = new FluweightBullet(bulletFactory.getBullet(bulletType));
 
         bullet.flying(x,y);
     }

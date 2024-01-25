@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/EmailNotificationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/EventManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/SMSNotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/ChatMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/ConcreteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,7 @@
     "Application.Prototype.Client.executor": "Run",
     "Application.Singleton.Factory.ClassRegistrationusingReflections.Client.executor": "Run",
     "Application.Strategy.Client.executor": "Run",
+    "Application.mediator.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="mediator" />
       <recent name="Observer" />
       <recent name="Command" />
       <recent name="Bridge" />
       <recent name="Proxy" />
-      <recent name="AbstractFactoryMethod.Simple" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations" />
@@ -78,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Observer.Client">
+  <component name="RunManager" selected="Application.mediator.Client">
     <configuration name="Bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bridge.Client" />
       <module name="DesignPatterns" />
@@ -118,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Composite.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Observer.Client" />
       <module name="DesignPatterns" />
@@ -144,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mediator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mediator.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mediator.Client" />
         <item itemvalue="Application.Observer.Client" />
         <item itemvalue="Application.Command.CarRepairExample.Client" />
         <item itemvalue="Application.Command.Client" />
         <item itemvalue="Application.Bridge.Client" />
-        <item itemvalue="Application.Composite.Client" />
       </list>
     </recent_temporary>
   </component>

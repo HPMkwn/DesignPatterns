@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/ComplexShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/ImageProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +44,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Adapter.Client.executor": "Run",
     "Application.Builder.Client.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.Composite.Client.executor": "Run",
+    "Application.FlyWeight.Client.executor": "Run",
+    "Application.Prototype.Client.executor": "Run",
     "Application.Singleton.Factory.ClassRegistrationusingReflections.Client.executor": "Run",
+    "Application.Strategy.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -55,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Proxy" />
       <recent name="AbstractFactoryMethod.Simple" />
       <recent name="FactoryMethod" />
     </key>
@@ -64,13 +73,13 @@
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Prototype.Client">
-    <configuration name="Builder.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Builder.Client" />
+  <component name="RunManager" selected="Application.Composite.Client">
+    <configuration name="Adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Builder.*" />
+          <option name="PATTERN" value="Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.LazySingleton.Client" />
+      <option name="MAIN_CLASS_NAME" value="Decorator.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.LazySingleton.*" />
+          <option name="PATTERN" value="Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory.ClassRegistrationusingReflections.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.ClassRegistrationusingReflections.Client" />
+    <configuration name="Composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.ClassRegistrationusingReflections.*" />
+          <option name="PATTERN" value="Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prototype.Client" />
+    <configuration name="FlyWeight.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlyWeight.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prototype.*" />
+          <option name="PATTERN" value="FlyWeight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton.EagerSingleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.EagerSingleton.Client" />
+    <configuration name="Strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.EagerSingleton.*" />
+          <option name="PATTERN" value="Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Prototype.Client" />
-        <item itemvalue="Application.Builder.Client" />
-        <item itemvalue="Application.Singleton.Factory.ClassRegistrationusingReflections.Client" />
-        <item itemvalue="Application.Singleton.EagerSingleton.Client" />
+        <item itemvalue="Application.Composite.Client" />
+        <item itemvalue="Application.FlyWeight.Client" />
+        <item itemvalue="Application.Strategy.Client" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Adapter.Client" />
       </list>
     </recent_temporary>
   </component>

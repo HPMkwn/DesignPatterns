@@ -14,7 +14,7 @@ public class ImageProxy implements Image{
     public void showImage() {
 
         if(proxifiedImage==null){
-            proxifiedImage = new HighResolutionImage();
+            proxifiedImage = new HighResolutionImage(imageFilePath);
         }
 
         proxifiedImage.showImage();

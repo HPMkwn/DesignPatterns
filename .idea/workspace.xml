@@ -5,11 +5,156 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9cd2f0-46d5-4010-b2b0-7468b27c1901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Memento/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memento/ConfigurationCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memento/ConfigurationMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Memento/ConfigurationOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Template/BuyOffline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Template/BuyOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Template/PhoneOrderTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise10Template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise10Template/PerformanceTestConcreteClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise10Template/PerformanceTestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise1Singleton/ProblemStatement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise1Singleton/Servers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise2Singleton/ProblemStatement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise2Singleton/Servers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise3Singleton/ProblemStatement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise3Singleton/Servers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise4Singleton/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise4Singleton/ProblemStatement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise4Singleton/Servers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise5Builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise5Builder/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise6Adapter/ComputerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise6Adapter/ComputerGameAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise6Adapter/PCGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise6Adapter/PegiAgeRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise6Adapter/Requirements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise7Decorator/DecoratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise7Decorator/ExecutionTimesBaseStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise7Decorator/StatisticsLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise7Decorator/WithMeanStatisticsLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise7Decorator/WithSummaryStatisticsLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise8Observer/ByTenChangeObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise8Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise8Observer/SpecificValueObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise8Observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise8Observer/ValueLoweredObserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise9Memento/EditorText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise9Memento/EditorTextMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise9Memento/EditorTextMementoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatternExercise/Exercise9Memento/MementoDemoClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteFactoryA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/ConcreteFactoryA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteFactoryB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/ConcreteFactoryB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct1A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/ConcreteProduct1A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct1B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/ConcreteProduct1B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct2A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/ConcreteProduct2A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/ConcreteProduct2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/ConcreteProduct2B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/Product1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/Product1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryMethod/Simple/Product2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/AbstractFactoryMethod/Simple/Product2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/BankThirdPartyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Adapter/BankThirdPartyAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Adapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/PhonePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Adapter/PhonePay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/PhonePayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Adapter/PhonePayAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Bridge/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/DabatasePersistenceImplementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Bridge/DabatasePersistenceImplementor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/FileSystemPersistentImplementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Bridge/FileSystemPersistentImplementor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Persistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Bridge/Persistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/PersistenceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Bridge/PersistenceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/PersistenceImplementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Bridge/PersistenceImplementor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Builder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CarRepairExample/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/CarRepairExample/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CarRepairExample/EngineIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/CarRepairExample/EngineIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CarRepairExample/FrontDeskInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/CarRepairExample/FrontDeskInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CarRepairExample/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/CarRepairExample/Issue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CarRepairExample/RepairService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/CarRepairExample/RepairService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CarRepairExample/TyrePuncture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/CarRepairExample/TyrePuncture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/ConcreteExample/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/ConcreteExample/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/ConcreteExample/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/ConcreteExample/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/ConcreteExample/ConcreteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/ConcreteExample/ConcreteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/ConcreteExample/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/ConcreteExample/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/ConcreteExample/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Command/ConcreteExample/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Composite/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/ComplexShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Composite/ComplexShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Composite/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Composite/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Composite/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Composite/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/BasicStreamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Decorator/BasicStreamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/HDStreamingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Decorator/HDStreamingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/StreamingDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Decorator/StreamingDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/StreamingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Decorator/StreamingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/SubtitleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Decorator/SubtitleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrations/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrations/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrations/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrations/ConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrations/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrations/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrations/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrations/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrations/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrations/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/AnotherConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrationusingReflections/AnotherConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrationusingReflections/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrationusingReflections/ConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrationusingReflections/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrationusingReflections/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ClassRegistrationusingReflections/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ClassRegistrationusingReflections/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/AnotherConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ParameterizedFactory/AnotherConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ParameterizedFactory/ConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ParameterizedFactory/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/FactoryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ParameterizedFactory/FactoryClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ParameterizedFactory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Factory/ParameterizedFactory/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ARCWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/ARCWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ArcBlackSmith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/ArcBlackSmith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/BlackSmith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/BlackSmith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ELFBlackSmith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/ELFBlackSmith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/ELFWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/ELFWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Peacock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/Peacock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/PeacockSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/PeacockSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Pigeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/Pigeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/PigeonSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/PigeonSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/Sparrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/SimpleFactoryMethod/SparrowSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/SimpleFactoryMethod/SparrowSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryMethod/WeaponType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/FactoryMethod/WeaponType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWeight/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/FlyWeight/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWeight/BulletFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/FlyWeight/BulletFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWeight/BulletType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/FlyWeight/BulletType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWeight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/FlyWeight/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWeight/FluweightBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/FlyWeight/FluweightBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWeight/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/FlyWeight/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Memento/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/ConfigurationCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Memento/ConfigurationCareTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/ConfigurationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Memento/ConfigurationMemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/ConfigurationOriginator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Memento/ConfigurationOriginator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Observer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Observer/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/EmailNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Observer/EmailNotificationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Observer/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/EventManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Observer/EventManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/SMSNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Observer/SMSNotificationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Prototype/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Prototype/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Prototype/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/HighResolutionImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Proxy/HighResolutionImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Proxy/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/Structural/Proxy/ImageProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/EagerSingleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Singleton/EagerSingleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/EagerSingleton/EagerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Singleton/EagerSingleton/EagerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/LazySingleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Singleton/LazySingleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/LazySingleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/CreationalDP/Singleton/LazySingleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Strategy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CreditCardPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Strategy/CreditCardPaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/PaymentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Strategy/PaymentContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Strategy/PaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/PaypalPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/Strategy/PaypalPaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediator/ChatMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/mediator/ChatMediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/mediator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediator/ConcreteMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/mediator/ConcreteMediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediator/ConcreteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/mediator/ConcreteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteDP/BehaviouralDP/mediator/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +164,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -48,7 +196,10 @@
     "Application.Command.CarRepairExample.Client.executor": "Run",
     "Application.Command.Client.executor": "Run",
     "Application.Composite.Client.executor": "Run",
+    "Application.DecoratorDemo.executor": "Run",
     "Application.FlyWeight.Client.executor": "Run",
+    "Application.Memento.Client.executor": "Run",
+    "Application.MementoDemoClient.executor": "Run",
     "Application.Observer.Client.executor": "Run",
     "Application.Prototype.Client.executor": "Run",
     "Application.Singleton.Factory.ClassRegistrationusingReflections.Client.executor": "Run",
@@ -59,31 +210,33 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mr.mkwn/IdeaProjects/DesignPatterns/src/Singleton/Factory/ClassRegistrations",
+    "last_opened_file_path": "/Users/mr.mkwn/IdeaProjects/DesignPatterns/src/DesignPatternExercise/Exercise4Singleton",
     "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPatternExercise.Exercise8Observer" />
+      <recent name="DesignPatternExercise.Exercise7Decorator" />
+      <recent name="DesignPatternExercise.Exercise6Adapter" />
       <recent name="mediator" />
       <recent name="Observer" />
-      <recent name="Command" />
-      <recent name="Bridge" />
-      <recent name="Proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DesignPatternExercise/Exercise4Singleton" />
+      <recent name="$PROJECT_DIR$/src/DesignPatternExercise" />
+      <recent name="$PROJECT_DIR$/src/DesignPatternExercise/Exercise3Singleton" />
+      <recent name="$PROJECT_DIR$/src/DesignPatternExercise/Exercise2Singleton" />
       <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrations" />
-      <recent name="$PROJECT_DIR$/src/Singleton/Factory/" />
-      <recent name="$PROJECT_DIR$/src/Singleton/Factory/ClassRegistrationusingReflections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Memento.Client">
+  <component name="RunManager" selected="Application.ConcreteDP.BehaviouralDP.Template.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Command.ConcreteExample.Client" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatternExercise.Exercise10Template.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Command.ConcreteExample.*" />
+          <option name="PATTERN" value="DesignPatternExercise.Exercise10Template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Command.CarRepairExample.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Command.CarRepairExample.Client" />
+    <configuration name="ConcreteDP.BehaviouralDP.Memento.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcreteDP.BehaviouralDP.Memento.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Command.CarRepairExample.*" />
+          <option name="PATTERN" value="ConcreteDP.BehaviouralDP.Memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Memento.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memento.Client" />
+    <configuration name="ConcreteDP.BehaviouralDP.Template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcreteDP.BehaviouralDP.Template.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Memento.*" />
+          <option name="PATTERN" value="ConcreteDP.BehaviouralDP.Template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.Client" />
+    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatternExercise.Exercise7Decorator.DecoratorDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.*" />
+          <option name="PATTERN" value="DesignPatternExercise.Exercise7Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mediator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mediator.Client" />
+    <configuration name="MementoDemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatternExercise.Exercise9Memento.MementoDemoClient" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mediator.*" />
+          <option name="PATTERN" value="DesignPatternExercise.Exercise9Memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Memento.Client" />
-        <item itemvalue="Application.mediator.Client" />
-        <item itemvalue="Application.Observer.Client" />
-        <item itemvalue="Application.Command.CarRepairExample.Client" />
-        <item itemvalue="Application.Command.Client" />
+        <item itemvalue="Application.ConcreteDP.BehaviouralDP.Template.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.MementoDemoClient" />
+        <item itemvalue="Application.DecoratorDemo" />
+        <item itemvalue="Application.ConcreteDP.BehaviouralDP.Memento.Client" />
       </list>
     </recent_temporary>
   </component>
